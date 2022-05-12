@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: dodgerblue;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.translate{
+    width: 80%;
+    height: 80vh;
+    /* background: red; */
+}
+
+.logo{
+    text-align: center;
+    color: rgba(135, 207, 235, 0.708);
+    font-size: 50px;
+    text-shadow: 0px 0px 10px skyblue;
+    letter-spacing: 5px;
+    font-family: monospace;
+    user-select: none;
+}
+
+.english,
+.uzbek{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    user-select: none;
+}
+.uzbek input,.english input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    text-indent: 12px;
+    outline: none;
+    border: none;
+    font-size: 22px;
+    background: transparent;
+    color: #fff;
+    box-shadow: 0 0 20px #fff7;
+    user-select: none;
+}
+.uzbek input::placeholder,.english input::placeholder{
+    color: #ddd;
+    user-select: none;
+}
+.uzbek button,.english button{
+    width: 80px;
+    height: 40px;
+    border: 5px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: transparent;
+    box-shadow: 0 0 20px #fff7;
+    color: #fff;
+    cursor: pointer;
+    opacity: .7;
+    user-select: none;
+}
+.uzbek button:hover,.english button:hover{
+    opacity: 1;
+}
+.h2{
+    text-align: center;
+    width: 700px;
+    height: 38px;
+    box-shadow: 0 0 20px #fff7;
+    border-radius: 5px;
+    color: #fff7;
+    margin:50px auto;
+    user-select: none;
+    display: none;
+}
